@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Practice_Array.cs" />
+    <Compile Include="Practice_String.cs" />
     <Compile Include="Use_method.cs" />
     <Compile Include="Practice_Datatype.cs" />
     <Compile Include="Practice_Variable.cs" />
