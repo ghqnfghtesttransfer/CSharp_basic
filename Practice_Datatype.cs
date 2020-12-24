@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpProgramming
 {
-    class Datatype
+    class Practice_Datatype
     {
         static void Main(string[] args)
         {
@@ -14,6 +14,8 @@ namespace CSharpProgramming
             // System : namespace. root namespace는 global이며 System namespace는 원래 global::System임.
             // System.Console : .NET Framework 클래스
             System.Console.WriteLine("Hello World...");
+            
+             
             
         }
     }
