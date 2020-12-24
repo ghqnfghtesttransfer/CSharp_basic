@@ -1,0 +1,4 @@
+#ignore Folders and Files
+
+bin/
+obj/
