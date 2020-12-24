@@ -8,14 +8,8 @@ namespace CSharpProgramming
 {
     class Practice_Datatype
     {
-        static void Main(string[] args)
+        public void Method()
         {
-            // 기본 출력 방식
-            // System : namespace. root namespace는 global이며 System namespace는 원래 global::System임.
-            // System.Console : .NET Framework 클래스
-            System.Console.WriteLine("Hello World...");
-
-
             /* Difference Variable type between C++ and C#
              * 
              *  모든 변수 타입은 C#이 System.foobar 와 같은 형식으로 컴파일하여 .NET 데이터 타입으로 변경함
@@ -38,7 +32,7 @@ namespace CSharpProgramming
             Object obj = dt;
             
             // 출력이 자유로움
-            Console.WriteLine(obj);
+            // Console.WriteLine(obj);
 
             /* Nullable Type
              * 
@@ -56,14 +50,8 @@ namespace CSharpProgramming
              * 
              */
             
-            int? i = null;          
-            Console.WriteLine(i);
-
-            // Console 자동 종료 방지
-            // Console.ReadLine() : 엔터 키 입력 시 콘솔 종료
-            Console.ReadKey(); // 아무 키 입력 시 콘솔 종료
-
-            
+             int? i = null;          
+            // Console.WriteLine(i);
         }
     }
 }
