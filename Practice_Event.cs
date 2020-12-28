@@ -8,7 +8,7 @@ namespace CSharpProgramming
 {
     class Practice_Event
     {
-        public string text;
+        //public string text;
         public event EventHandler Click;
 
         public void MouseButtonDown()
