@@ -66,7 +66,21 @@ namespace CSharpProgramming
             // tmpNamespace.Practice_Namespace PNtmp = new tmpNamespace.Practice_Namespace();
             // PNtmp.Method();
 
-            // 11) 
+            // 11) Struct
+            // Practice_Struct PSTtmp = new Practice_Struct();
+            // PSTtmp.Method(1, 2);
+
+            // 12) Class
+            // Practice_Class PCLtmp = new Practice_Class();
+            // PCLtmp.Name = "ho";
+            // PCLtmp.Age = 28;
+            // PCLtmp.Name = "real";
+            // Q) name에 대해 변경했을 때 이벤트가 작동했음을 확인할 수 있는 방법은 무엇인가?
+            // Console.WriteLine(PCLtmp.GetCustomerData());
+
+            // 13) Nullable -> Datatype에 포함
+
+            // 14) 
 
 
             // Console 자동 종료 방지
