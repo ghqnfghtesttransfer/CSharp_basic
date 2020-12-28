@@ -16,6 +16,11 @@ namespace CSharpProgramming
         {
             a *= 2;
         }
+        private string stringCat(string name, int num)
+        {
+            return string.Format("num : {0}, name : {1}", num, name);
+        }
+        /*
         static void Main(string[] args)
         {
             // 기본 출력 방식
@@ -91,20 +96,30 @@ namespace CSharpProgramming
             // 14) Method
             Use_method tmp = new Use_method();
             int val = 100;
-            Console.WriteLine("val : {0}", val);
             // call by value
+            Console.WriteLine("val : {0}", val);
             tmp.Calculate(val);
             Console.WriteLine("val : {0}", val);
 
-
-            Console.WriteLine("val : {0}", val);
             // call by Reference
+            Console.WriteLine("val : {0}", val);
             tmp.Calculate(ref val);
             Console.WriteLine("val : {0}", val);
 
             // 비슷한 기능을 하는 것으로 out 키워드가 있음 ( ex. out val )
             // ref변수는 반드시 초기화를 필요로 하지만 out 변수는 초기화를 하지 않아도 가능.
 
+            Console.WriteLine(tmp.stringCat(num: 5, name: "ho"));
+            // method의 파라미터 이름을 직접 지정하여 굳이 정해진 함수 파라미터의 순서대로
+            // 기입하지 않아도 함수를 실행시킬 수 있다.
+
+            // *** Optional 파라미터 : method의 파라미터에 기본 값을 설정한다.
+            // optional 파라미터는 반드시 optional이 아닌 파라미터들 뒤에 위치해야 한다.
+            // ex) public void do_something(int a, int b, int c = 0, int d = -1) {}
+
+            // *** params 파라미터 : 가변적인 배열을 인수로 갖게 해준다.
+            // 반드시 하나의 method에 하나만 존재할 수 있으며, 맨 마지막에 위치해야 한다.
+            // ex) public void do_something(string a, string b, params int[] values) {}
 
             // Console 자동 종료 방지
             // Console.ReadLine() : 엔터 키 입력 시 콘솔 종료
@@ -113,5 +128,6 @@ namespace CSharpProgramming
             // 키 입력 후에 콘솔을 종료하는 행동인 것 처럼 보이는 것.
 
         }
+        */
     }
 }

@@ -44,7 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Practice_Class.cs" />
-    <Compile Include="Practice_Method.cs" />
     <Compile Include="Practice_Namespace.cs" />
     <Compile Include="Practice_Exception.cs" />
     <Compile Include="Practice_Iteration.cs" />
