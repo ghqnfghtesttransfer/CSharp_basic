@@ -53,10 +53,12 @@
     <Compile Include="Practice_String.cs" />
     <Compile Include="Practice_Struct.cs" />
     <Compile Include="Practice_Yield.cs" />
+    <Compile Include="Practice_Event.cs" />
     <Compile Include="Use_method.cs" />
     <Compile Include="Practice_Datatype.cs" />
     <Compile Include="Practice_Variable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Use_method2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
