@@ -17,7 +17,6 @@ namespace CSharpProgramming
 
             // 클래스 선언 시에는 new를 이용해 새로운 객체 할당
 
-
             // 1) Datatype
             // Practice_Datatype PDtmp = new Practice_Datatype();
             // PDtmp.Method();
@@ -61,8 +60,13 @@ namespace CSharpProgramming
             // 9) Exception
             // 클래스에만 정리
 
+            // 10) Namespace
+            // using tmpNamespace를 위에 추가하여 
+            // 새로운 namespace인 tmpNamespace를 참조하면 더 간결하게 이용할 수 있다.
+            // tmpNamespace.Practice_Namespace PNtmp = new tmpNamespace.Practice_Namespace();
+            // PNtmp.Method();
 
-
+            // 11) 
 
 
             // Console 자동 종료 방지
