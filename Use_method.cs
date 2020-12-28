@@ -48,7 +48,12 @@ namespace CSharpProgramming
             // Practice_Condition PCtmp = new Practice_Condition();
             // PCtmp.Method();
 
-            // 7) 
+            // 7) Iteration
+            // var PItmp = new Practice_Iteration();
+            // var를 이용하여 다양한 클래스 혹은 타입의 변수를 생성할 수 있다.
+            // Q) var를 이용할 때와 클래스 혹은 타입명 전체를 이용할 때의 차이점은 무엇일까?
+            // PItmp.Method();
+            // PItmp.Method2();
 
 
             // Console 자동 종료 방지
