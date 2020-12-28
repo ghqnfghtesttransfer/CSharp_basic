@@ -55,6 +55,15 @@ namespace CSharpProgramming
             // PItmp.Method();
             // PItmp.Method2();
 
+            // 8) Yield
+            // 일단 패스
+
+            // 9) Exception
+            // 클래스에만 정리
+
+
+
+
 
             // Console 자동 종료 방지
             // Console.ReadLine() : 엔터 키 입력 시 콘솔 종료
