@@ -8,6 +8,8 @@ namespace CSharpProgramming
 {
     class Use_method2
     {
+        // 15) Event, 방식을 알 수 없어 일단 패스
+
         /*void btn_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Button 클릭");
@@ -30,6 +32,16 @@ namespace CSharpProgramming
         }*/
         static void Main()
         {
+            // 16) PreProcessor
+            // Using #define, #if, #endif
+            // Practice_Preprocessor PPtmp = new Practice_Preprocessor();
+            // PPtmp.Method();
+
+            // Using #warning, #error
+            // Practice_Preprocessor PPtmp = new Practice_Preprocessor();
+            // PPtmp.Method2();
+
+            Console.ReadKey();
 
         }
 

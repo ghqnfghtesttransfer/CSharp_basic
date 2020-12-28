@@ -1,13 +1,17 @@
-﻿using System;
+﻿#pragma warning disable 0414
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace CSharpProgramming
 {
     class Practice_Condition
     {
+
+#pragma warning disable // Practice_Preprocessor.cs와 연결
         static bool v = false;
         static bool c = false;
         static bool l = false;

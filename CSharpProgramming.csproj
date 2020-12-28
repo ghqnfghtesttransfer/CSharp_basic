@@ -50,6 +50,7 @@
     <Compile Include="Practice_Condition.cs" />
     <Compile Include="Practice_Enum.cs" />
     <Compile Include="Practice_Array.cs" />
+    <Compile Include="Practice_Preprocessor.cs" />
     <Compile Include="Practice_String.cs" />
     <Compile Include="Practice_Struct.cs" />
     <Compile Include="Practice_Yield.cs" />
