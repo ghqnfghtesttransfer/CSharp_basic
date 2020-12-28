@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Practice_Enum.cs" />
     <Compile Include="Practice_Array.cs" />
     <Compile Include="Practice_String.cs" />
     <Compile Include="Use_method.cs" />

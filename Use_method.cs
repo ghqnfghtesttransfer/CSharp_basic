@@ -31,20 +31,24 @@ namespace CSharpProgramming
             // PAtmp.Method();
 
             // 4) String
-            Practice_String PStmp = new Practice_String();
+            // Practice_String PStmp = new Practice_String();
             // PStmp.StringMethod();
-            PStmp.StringBuilderMethod();
+            // PStmp.StringBuilderMethod();
 
-            // Q) obj로 새로운 클래스를 그대로 받아올 수 있지만 해당 클래스의
+            // Q) obj로 새로운 클래스를 받아와 Type을 확인해 보면 해당 클래스와 맞으나
             // Method나 property에는 접근할 수 없는 이유..?
-            Object obj = PStmp;
+            // Object obj = PStmp;
             // Console.WriteLine(obj.GetType());
-            
-                        
+
+            // 5) Enum
+            // Practice_Enum PEtmp = new Practice_Enum();
+            // PEtmp.Method();
 
             // Console 자동 종료 방지
             // Console.ReadLine() : 엔터 키 입력 시 콘솔 종료
-            Console.ReadKey(); //  아무 키 입력 시 콘솔 종료
+            Console.ReadKey(); //  아무 키 입력 시 콘솔 종료,
+            // 실질적으로는 키보드 입력을 받는 역할이지만 키입력을 받고 추가 행동을 진행하지 않아
+            // 키 입력 후에 콘솔을 종료하는 행동인 것 처럼 보이는 것.
         }
     }
 }
