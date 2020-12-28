@@ -8,6 +8,14 @@ namespace CSharpProgramming
 {
     class Use_method
     {
+        private void Calculate(int a) // for Practice_Method, call by value
+        {
+            a *= 2;
+        }
+        private void Calculate(ref int a) // for Practice_method, call by reference
+        {
+            a *= 2;
+        }
         static void Main(string[] args)
         {
             // 기본 출력 방식
@@ -58,7 +66,7 @@ namespace CSharpProgramming
             // 일단 패스
 
             // 9) Exception
-            // 클래스에만 정리
+            // Practice_Exception.cs 에 정리
 
             // 10) Namespace
             // using tmpNamespace를 위에 추가하여 
@@ -80,7 +88,22 @@ namespace CSharpProgramming
 
             // 13) Nullable -> Datatype에 포함
 
-            // 14) 
+            // 14) Method
+            Use_method tmp = new Use_method();
+            int val = 100;
+            Console.WriteLine("val : {0}", val);
+            // call by value
+            tmp.Calculate(val);
+            Console.WriteLine("val : {0}", val);
+
+
+            Console.WriteLine("val : {0}", val);
+            // call by Reference
+            tmp.Calculate(ref val);
+            Console.WriteLine("val : {0}", val);
+
+            // 비슷한 기능을 하는 것으로 out 키워드가 있음 ( ex. out val )
+            // ref변수는 반드시 초기화를 필요로 하지만 out 변수는 초기화를 하지 않아도 가능.
 
 
             // Console 자동 종료 방지
